@@ -1,0 +1,8 @@
+# Ignore local environment files because secrets must never be committed.
+# This protects passwords, API keys, and deployment tokens from accidental publication.
+.env
+.env.local
+.env.*.local
+node_modules/
+dist/
+*.tsbuildinfo

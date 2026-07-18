@@ -1,0 +1,36 @@
+{
+  "name": "portfolio-social-platform-backend",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Backend foundation for the portfolio social platform. This scaffold intentionally exposes infrastructure primitives only and leaves business logic for future feature modules.",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc -p tsconfig.json",
+    "start": "node dist/server.js",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "compression": "^1.8.1",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.0",
+    "dotenv": "^16.4.0",
+    "express": "^4.19.0",
+    "helmet": "^8.3.0",
+    "mongoose": "^9.7.4",
+    "pino": "^10.3.1",
+    "pino-pretty": "^13.0.0",
+    "reflect-metadata": "^0.2.0",
+    "tsyringe": "^4.10.0",
+    "zod": "^3.16.0"
+  },
+  "devDependencies": {
+    "@types/compression": "^1.0.0",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.0",
+    "@types/express": "^5.0.0",
+    "@types/node": "^24.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.7.0"
+  }
+}
